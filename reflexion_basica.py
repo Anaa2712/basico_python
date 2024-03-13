@@ -1,0 +1,11 @@
+x = object
+print (dir (x))
+print('-----1-----')
+print(x.__doc__)
+print('-----2-----')
+print(x.__class__)
+print(type(x))
+print('-----3-----')
+print(x.__init__)
+print('-----4-----')
+print(x.__str__)
